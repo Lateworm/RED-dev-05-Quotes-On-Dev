@@ -30,3 +30,8 @@
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
+
+				<div class="blockquote-marks">
+				<i class="fa fa-quote-left blockquote-mark" aria-hidden="true"></i>
+				<i class="fa fa-quote-right blockquote-mark" aria-hidden="true"></i>
+			</div>
