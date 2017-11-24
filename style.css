@@ -45,7 +45,7 @@ html {
   -ms-text-size-adjust: 100%; }
 
 body {
-  margin: 0; }
+  margin: 15px; }
 
 article,
 aside,
@@ -386,9 +386,9 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 2px solid #1fca24;
+  border: 2px solid #0c0;
   border-radius: 3px;
-  color: #1fca24;
+  color: #0c0;
   background-color: #222;
   line-height: 1;
   padding: .6rem 1rem .4rem; }
@@ -438,9 +438,9 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: #1fca24; }
+  color: #0c0; }
   a:visited {
-    color: #1fca24; }
+    color: #0c0; }
   a:hover, a:focus, a:active {
     color: #18901c; }
   a:focus {
@@ -530,7 +530,6 @@ a {
     -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
             box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
-    color: #21759b;
     display: block;
     font-size: .875rem;
     font-weight: bold;
