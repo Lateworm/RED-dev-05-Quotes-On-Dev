@@ -44,9 +44,6 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
-body {
-  margin: 15px; }
-
 article,
 aside,
 details,
@@ -305,7 +302,7 @@ mark, ins {
 big {
   font-size: 125%; }
 
-.entry-content {
+.index-entry-content {
   font-size: 1.5rem; }
 
 .entry-meta .entry-title {
@@ -335,7 +332,8 @@ html {
 
 body {
   background: #222;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  margin: 40px 20px 0px 20px; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -348,11 +346,9 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
-  margin: 0 0 1.5rem 3rem; }
-
 ul {
-  list-style: disc; }
+  list-style: none;
+  padding: 0; }
 
 ol {
   list-style: decimal; }
@@ -412,7 +408,8 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
+  background-color: #222;
+  border: 2px solid #0c0;
   border-radius: 3px; }
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -432,6 +429,12 @@ input[type="search"] {
 textarea {
   padding-left: 3px;
   width: 100%; }
+
+label {
+  display: block; }
+
+input[type="submit"] {
+  margin-top: 1.5rem; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -602,6 +605,19 @@ a {
 .main-navigation {
   margin-top: 4.5rem; }
 
+.blockquote-marks {
+  display: none; }
+
+.post-archives ul li,
+.category-archives ul li,
+.tag-archives ul li {
+  display: inline-block;
+  margin: 3px 1.5rem 3px 0; }
+  .post-archives ul li a,
+  .category-archives ul li a,
+  .tag-archives ul li a {
+    text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -624,3 +640,38 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+@media screen and (min-width: 1080px) {
+  .hfeed {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto; }
+    .hfeed .blockquote-marks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      height: 0; }
+      .hfeed .blockquote-marks .blockquote-mark {
+        color: #0c0;
+        font-size: 8rem;
+        position: relative;
+        top: 30px; }
+      .hfeed .blockquote-marks p {
+        width: 620px; }
+  .site-description,
+  .site-main {
+    width: 720px;
+    margin-left: 180px; }
+  button {
+    margin-left: 180px; }
+  .main-navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .index-entry-content {
+    font-size: 2.5rem; } }

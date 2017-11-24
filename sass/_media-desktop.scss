@@ -1,6 +1,51 @@
 @media screen and (min-width: $break__desktop) {
 
 
+	.hfeed {
+		width: $break__desktop;
+		margin-left: auto;
+		margin-right: auto;
+
+		.blockquote-marks{
+			display: flex;
+			justify-content: space-between;
+			height: 0;
+
+			.blockquote-mark {
+				color: $color__link;
+				font-size: 8rem;
+				position: relative;
+				top: 30px;
+			}
+
+			p {
+				width: $break__tablet;
+			}
+		}
+	}
+
+	.site-description,
+	.site-main, { // the Quotes on Dev logo
+		width: $break__tablet + 100px;
+		margin-left: ( $break__desktop - ($break__tablet  + 100px) ) / 2;
+	}
+
+	button {
+		margin-left: ( $break__desktop - ($break__tablet  + 100px) ) / 2;
+	}
+
+	.main-navigation {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.index-entry-content { // quote on index.php
+		font-size: 2.5rem;
+	}
+
+
+
+
 
 
 	

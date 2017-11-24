@@ -39,3 +39,21 @@
 .main-navigation {
 	margin-top: 3*$base__space-unit;
 }
+
+.blockquote-marks{
+	display: none;
+}
+
+.post-archives,
+.category-archives,
+.tag-archives {
+	ul {
+		li {
+			display: inline-block;
+			margin: 3px $base__space-unit 3px 0;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+}
