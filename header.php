@@ -23,12 +23,10 @@
 			<header id="masthead" class="site-header" role="banner">
 				<div class="site-branding">
 					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<img class="site-description" src="<?php echo get_site_url().'/wp-content/themes/quotesondev/img/qod-logo.svg'; ?>"></img>
+					<a href="<?php echo get_site_url() ?>" ><img class="site-description" src="<?php echo get_site_url().'/wp-content/themes/quotesondev/img/qod-logo.svg'; ?>"></img></a>
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				</nav><!-- #site-navigation -->
+
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">
