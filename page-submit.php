@@ -1,12 +1,16 @@
 <?php
-/*
+/**
+ * Quote Submission Page
+ *
+ * @package QOD_Starter_Theme
  */
-get_header(); ?>
 
+get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
 		<section>
+
 			<header>
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ) ?>
 			</header>
@@ -22,8 +26,6 @@ get_header(); ?>
 						<label for="quote-author">Author of Quote</label>
 						<input type="text" name="quote-author" id="quote-author" >
 					</div>
-
-					<!-- JS example: var quoteAuthor = $('#quote-author').val(); -->
 
 					<div>
 						<label for="quote-content">Quote</label>
@@ -42,17 +44,15 @@ get_header(); ?>
 
 					<input type="submit" value="Submit Quote">
 
-
 				</form>
-							<!-- might be submit-status in the JS -->
-				<p class="submit-success-message" style="display: none;">Quote submitted successfully!</p> 
+
+				<p class="submit-status-message"></p> 
 
 			</div>
 
 			<?php else: ?>
 
-			<p>Sorry, you must be logged in</p>
-			<p><?php echo sprintf( '<a href="%1s">%2s</a>', esc_url( wp_login_url() ), 'Click here to log in.' );get_default_page_to_edit() ?></p>
+			<p>You must <?php echo sprintf( '<a href="%1s">%2s</a>', esc_url( wp_login_url() ), 'log in' );get_default_page_to_edit() ?> to post a quote.</p>
 
 			<?php endif;?>
 
