@@ -66,3 +66,25 @@ mark, ins {
 big {
 	font-size: 125%;
 }
+
+.entry-content { // the quote
+	font-size: 1.5rem;
+}
+
+.entry-meta{	
+	.entry-title { // the author credit
+		display: inline-block;
+		font-size: 1.25rem;
+	}
+	.source {
+		font-size: 1.25rem;
+	}
+}
+
+.main-navigation {
+	a:nth-child(1) {
+		&::after {
+			content: ' |\00a0';
+		}
+	}
+}

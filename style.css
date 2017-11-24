@@ -305,6 +305,19 @@ mark, ins {
 big {
   font-size: 125%; }
 
+.entry-content {
+  font-size: 1.5rem; }
+
+.entry-meta .entry-title {
+  display: inline-block;
+  font-size: 1.25rem; }
+
+.entry-meta .source {
+  font-size: 1.25rem; }
+
+.main-navigation a:nth-child(1)::after {
+  content: ' |\00a0'; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -442,7 +455,6 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
-    display: none;
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -483,20 +495,20 @@ a {
   .main-navigation ul {
     display: block; } }
 
+.posts-navigation {
+  display: none; }
+
 .site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5rem;
   overflow: hidden; }
 
 .comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%; }
 
 .comment-navigation .nav-next,
-.posts-navigation .nav-next,
 .post-navigation .nav-next {
   float: right;
   text-align: right;
@@ -587,6 +599,9 @@ a {
 
 .error {
   color: #ff0000; }
+
+.main-navigation {
+  margin-top: 4.5rem; }
 
 /*--------------------------------------------------------------
 # Media
