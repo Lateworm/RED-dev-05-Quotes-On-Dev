@@ -312,8 +312,10 @@ big {
 .entry-meta .source {
   font-size: 1.25rem; }
 
-.main-navigation a:nth-child(1)::after {
-  content: ' |\00a0'; }
+.main-navigation a:nth-child(1) {
+  padding-right: 0.75rem;
+  border-right: 1px solid #fff;
+  margin-right: 0.75rem; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -322,6 +324,9 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 1rem; }
+
+a {
+  text-decoration: none; }
 
 *,
 *:before,
@@ -483,9 +488,8 @@ a {
   .main-navigation li {
     float: left;
     position: relative; }
-  .main-navigation a {
-    display: block;
-    text-decoration: none; }
+  .main-navigation span {
+    display: block; }
 
 /* Small menu. */
 .menu-toggle,
@@ -618,6 +622,16 @@ a {
   .tag-archives ul li a {
     text-decoration: none; }
 
+.entry-title {
+  margin-top: 0;
+  font-weight: normal; }
+
+.archive-entry-content {
+  font-size: 1.8rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #fff;
+  margin-top: 0.75rem; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -675,3 +689,7 @@ object {
             justify-content: flex-end; }
   .index-entry-content {
     font-size: 2.5rem; } }
+
+@media screen and (min-width: 620px) {
+  .site-description {
+    width: 500px; } }
