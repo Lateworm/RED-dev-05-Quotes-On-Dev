@@ -68,7 +68,7 @@
 				content: content,
 				_qod_quote_source: _qod_quote_source, 
 				_qod_quote_source_url: _qod_quote_source_url, 
-				status: 'publish'
+				status: 'draft'
 				},
 			beforeSend: function(xhr) { // copied from the slides....
 				xhr.setRequestHeader( 'X-WP-Nonce', api_vars.nonce );

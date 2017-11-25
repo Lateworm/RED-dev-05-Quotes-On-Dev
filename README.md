@@ -27,10 +27,7 @@ And now would be a good time to `git init` :)
 
 ### To Do
 
-
-- Clear the quote submission form when a quote is successfully submitted to the database
-- validated with Theme Check
-- set submissions to pending by default
+- validate with Theme Check
 - fix the error that displays when you try to submit while unauthenticated
 - Style the 404 page
 - create a search function?
