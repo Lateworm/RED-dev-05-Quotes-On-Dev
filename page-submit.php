@@ -43,6 +43,7 @@ get_header(); ?>
 					</div>
 
 					<input type="submit" value="Submit Quote">
+					<input type="reset" id="reset">
 
 				</form>
 

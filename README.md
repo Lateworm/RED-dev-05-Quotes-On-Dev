@@ -27,8 +27,7 @@ And now would be a good time to `git init` :)
 
 ### To Do
 
-- fix colors of submission form
-- test cross-browser thoroughly
+
 - Clear the quote submission form when a quote is successfully submitted to the database
 - validated with Theme Check
 - set submissions to pending by default
@@ -49,8 +48,9 @@ And now would be a good time to `git init` :)
 - cross-browser testing
 	- Does the submit form warn if you enter an invalid url?
 - get nonces working for post method
-- either use font awesome or remove it
+- test cross-browser thoroughly
 - enforce a maximum quote submission length
+- prevent terms from appearing more than once in archives
 
 
 ### Dev Resources

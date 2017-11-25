@@ -76,8 +76,8 @@
 
 		}).done(function() {
 			$('.submit-status-message').append( api_vars.success );
-			// trigger reset?
-		
+			$('#reset').trigger( 'click' );
+
 		}).fail(function() {
 			$('.submit-status-message').append( api_vars.failure )
 		})
