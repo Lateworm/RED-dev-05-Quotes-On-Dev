@@ -83,8 +83,8 @@ big {
 
 .main-navigation {
 	a:nth-child(1) {
-		&::after {
-			content: ' |\00a0';
-		}
+		padding-right: $base__space-unit/2;
+		border-right: 1px solid $color__text-main;
+		margin-right: $base__space-unit/2;
 	}
 }

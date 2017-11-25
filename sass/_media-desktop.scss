@@ -26,12 +26,12 @@
 
 	.site-description,
 	.site-main, { // the Quotes on Dev logo
-		width: $break__tablet + 100px;
-		margin-left: ( $break__desktop - ($break__tablet  + 100px) ) / 2;
+		width: ($break__tablet) + 100px;
+		margin-left: ( ($break__desktop) - ($break__tablet + 100px) ) / 2;
 	}
 
 	button {
-		margin-left: ( $break__desktop - ($break__tablet  + 100px) ) / 2;
+		margin-left: ( ($break__desktop) - ($break__tablet + 100px) ) / 2;
 	}
 
 	.main-navigation {
