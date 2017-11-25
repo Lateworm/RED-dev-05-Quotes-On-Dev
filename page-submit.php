@@ -23,22 +23,22 @@ get_header(); ?>
 				<form name="quoteForm" id="quote-submission-form">
 
 					<div>
-						<label for="quote-author">Author of Quote</label>
+						<label for="quote-author">Author of Quote:</label>
 						<input type="text" name="quote-author" id="quote-author" >
 					</div>
 
 					<div>
-						<label for="quote-content">Quote</label>
+						<label for="quote-content">Quote:</label>
 						<textarea rows="3" cols="20" name="quote-content" id="quote-content" ></textarea>
 					</div>
 
 					<div>
-						<label for="quote-source">Source Name of Quote</label>
+						<label for="quote-source">Source of Quote (site name, social media name, etc...):</label>
 						<input type="text" name="quote-source" id="quote-source" >
 					</div>
 
 					<div>
-						<label for="quote-source-url">Source URL of Quote</label>
+						<label for="quote-source-url">URL to Source:</label>
 						<input type="url" name="quote-source-url" id="quote-source-url" >
 					</div>
 
@@ -46,7 +46,7 @@ get_header(); ?>
 
 				</form>
 
-				<p class="submit-status-message"></p> 
+				<p class="submit-status-message"></p>
 
 			</div>
 
