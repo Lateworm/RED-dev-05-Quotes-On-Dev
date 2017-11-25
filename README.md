@@ -25,8 +25,36 @@ And now would be a good time to `git init` :)
 
 ## Development
 
-### Dev Notes / Reminders
-- Create 'POST' and 'GET' methods in api.js
+### To Do
+
+- fix colors of submission form
+- test cross-browser thoroughly
+- Clear the quote submission form when a quote is successfully submitted to the database
+- validated with Theme Check
+- set submissions to pending by default
+- fix the error that displays when you try to submit while unauthenticated
+- Style the 404 page
+- create a search function?
+- Display one item per page for the blog index and author archives, five items per page for category and tag archives, and ten items per page for search results
+- try to find a way to make the slug always display, even on first load
+- Tie the "Show Me Another" fuunction to that specific button, instead of just $('button'). Also, tie it to the logo.
+	- generate URLs on click -  get the slug from the data and do a history.push state
+- create the quote-submission form using cmb2
+	- Probably need to create a page for it
+	- maybe do an audit of all pages that need to be created?
+- experiment with .append() vs .text() - If I used .text() could I skip the .empty() step?
+- update style.css header
+- Upade @package declarations at the top of PHP files
+- Fix error that is thrown at http://localhost:3000/quotes-on-dev/submit/ when not logged in
+- cross-browser testing
+	- Does the submit form warn if you enter an invalid url?
+- get nonces working for post method
+- either use font awesome or remove it
+- enforce a maximum quote submission length
+
+
+### Dev Resources
+
 - https://developer.mozilla.org/en-US/docs/Web/API/History_API
-- Refer back to instanews for refreshers in API-type stuff
-- Review the slides
+- https://github.com/CMB2/CMB2/wiki/Basic-Usage
+- https://red-wdp.herokuapp.com/project/project-5-quotes-on-dev/
