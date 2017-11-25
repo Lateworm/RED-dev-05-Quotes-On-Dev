@@ -2,7 +2,7 @@
 /**
  * The template for displaying the Archives page.
  *
- * @package QOD_Starter_Theme
+ * @package quotesondev
  */
 
 get_header(); ?>

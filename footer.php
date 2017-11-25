@@ -2,7 +2,7 @@
 /**
  * The template for displaying the footer.
  *
- * @package QOD_Starter_Theme
+ * @package quotesondev
  */
 
 ?>

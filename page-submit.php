@@ -2,7 +2,7 @@
 /**
  * Quote Submission Page
  *
- * @package QOD_Starter_Theme
+ * @package quotesondev
  */
 
 get_header(); ?>

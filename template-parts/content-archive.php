@@ -2,7 +2,7 @@
 /**
  * Template part for displaying posts.
  *
- * @package QOD_Starter_Theme
+ * @package quotesondev
  */
 
 $source = get_post_meta( get_the_ID(), '_qod_quote_source', true );

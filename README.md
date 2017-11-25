@@ -27,11 +27,9 @@ And now would be a good time to `git init` :)
 
 ### To Do
 
-- validate with Theme Check
 - Display one item per page for the blog index and author archives, five items per page for category and tag archives, and ten items per page for search results
 - try to find a way to make the slug always display, even on first load
 - experiment with .append() vs .text() - If I used .text() could I skip the .empty() step?
-- Upade @package declarations at the top of PHP files
 - cross-browser testing
 	- Does the submit form warn if you enter an invalid url?
 - get nonces working for post method
