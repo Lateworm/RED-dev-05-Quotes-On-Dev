@@ -193,9 +193,9 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  border: 0;
+  margin: 0;
+  padding: 0; }
 
 legend {
   border: 0;
@@ -391,7 +391,8 @@ input[type="submit"] {
   color: #0c0;
   background-color: #222;
   line-height: 1;
-  padding: .6rem 1rem .4rem; }
+  padding: .6rem 1rem .4rem;
+  margin-top: 1.5rem; }
   button:hover, button:active, button:focus,
   input[type="button"]:hover,
   input[type="button"]:active,
@@ -669,8 +670,6 @@ object {
   .site-description,
   .site-main {
     width: 720px;
-    margin-left: 180px; }
-  button {
     margin-left: 180px; }
   .main-navigation {
     display: -webkit-box;
