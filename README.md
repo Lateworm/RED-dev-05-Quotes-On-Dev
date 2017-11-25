@@ -29,7 +29,6 @@ And now would be a good time to `git init` :)
 
 - validate with Theme Check
 - fix the error that displays when you try to submit while unauthenticated
-- fix the error that's thrown by searching
 - Display one item per page for the blog index and author archives, five items per page for category and tag archives, and ten items per page for search results
 - try to find a way to make the slug always display, even on first load
 - Tie the logo to the "Show Me Another" function
