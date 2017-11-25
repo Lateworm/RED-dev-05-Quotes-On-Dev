@@ -53,7 +53,7 @@ get_header(); ?>
 
 			<?php else: ?>
 
-			<p>You must <?php echo sprintf( '<a href="%1s">%2s</a>', esc_url( wp_login_url() ), 'log in' );get_default_page_to_edit() ?> to post a quote.</p>
+			<p>You must <?php echo sprintf( '<a href="%1s">%2s</a>', esc_url( wp_login_url() ), 'log in' )?> to post a quote.</p>
 
 			<?php endif;?>
 
