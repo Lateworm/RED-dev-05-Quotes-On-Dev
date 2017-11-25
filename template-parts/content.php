@@ -12,7 +12,7 @@ $source_url = get_post_meta( get_the_ID(), '_qod_quote_source_url', true );
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div class="entry-content">
+	<div class="index-entry-content">
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 
@@ -20,7 +20,7 @@ $source_url = get_post_meta( get_the_ID(), '_qod_quote_source_url', true );
 		<?php the_title( '<h2 class="entry-title">&mdash; ', '</h2>'); ?>
 
 		<?php if( $source && $source_url ): ?>
-			<span class="source">, <a href="<?php echo $source_url; ?>">
+			<span class="source">, <a target="_blank" href="<?php echo $source_url; ?>">
 				<?php echo $source; ?>
 			</a></span>
 
