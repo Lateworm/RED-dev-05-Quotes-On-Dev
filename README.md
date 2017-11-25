@@ -29,15 +29,12 @@ And now would be a good time to `git init` :)
 
 - validate with Theme Check
 - fix the error that displays when you try to submit while unauthenticated
+- fix the error that's thrown by searching
 - Style the 404 page
 - create a search function?
 - Display one item per page for the blog index and author archives, five items per page for category and tag archives, and ten items per page for search results
 - try to find a way to make the slug always display, even on first load
-- Tie the "Show Me Another" fuunction to that specific button, instead of just $('button'). Also, tie it to the logo.
-	- generate URLs on click -  get the slug from the data and do a history.push state
-- create the quote-submission form using cmb2
-	- Probably need to create a page for it
-	- maybe do an audit of all pages that need to be created?
+- Tie the logo to the "Show Me Another" function
 - experiment with .append() vs .text() - If I used .text() could I skip the .empty() step?
 - update style.css header
 - Upade @package declarations at the top of PHP files

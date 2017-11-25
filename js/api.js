@@ -1,6 +1,6 @@
 (function($){
 
-	$('button').click(function(event) { // "Show Me Another"
+	$('#button-show-another').click(function(event) { // "Show Me Another"
 		event.preventDefault();
 
 		$.ajax({
