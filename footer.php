@@ -12,7 +12,7 @@
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-					<a href="<?php echo esc_url( 'https://redacademy.com' ); ?>"><?php printf( esc_html( 'Brought to you by %s' ), 'RED Academy' ); ?></a>
+					Brought to you by<a href="https://redacademy.com">&nbsp; RED Academy</a></span>
 				</nav>
 			</footer><!-- #colophon -->
 		</div><!-- #page -->
