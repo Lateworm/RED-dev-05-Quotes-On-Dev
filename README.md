@@ -1,6 +1,10 @@
 # Quotes on Dev Starter
 
-A WordPress starter theme for the Quotes on Dev project, forked from Underscores.
+## About this project
+This project is part of coursework for RED Academy's web development program
+
+### Screenshots
+![QOD project screenshot](/qod-screenshot.gif?raw=true)
 
 ## Installation
 
